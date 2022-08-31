@@ -170,6 +170,10 @@ header {
     object-position: center;
 }
 
+.name-home{
+    font-size: 28px;
+}
+
 .home-text {
     display: flex;
     flex-direction: column;
@@ -301,9 +305,11 @@ header {
 
 /* SERVICES */
 .services-content {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    align-items: center;
+    
 }
 
 .services-box {
