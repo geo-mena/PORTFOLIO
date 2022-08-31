@@ -303,13 +303,22 @@ header {
     margin-bottom: 1.5rem;
 }
 
+.ability-coding{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0px, 1fr));
+    padding: 0px;
+    column-gap: 8rem;
+    opacity: 50%;
+    font-size: 18px;
+}
+
 /* SERVICES */
 .services-content {
     display: flex;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     align-items: center;
-    
+
 }
 
 .services-box {
@@ -477,8 +486,8 @@ header {
 }
 
 .review-box img {
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     padding: 4px;
     border: 2px solid var(--main-color);
