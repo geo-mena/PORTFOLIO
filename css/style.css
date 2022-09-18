@@ -161,6 +161,7 @@ header {
     background: #98a7fc;
     overflow: hidden;
     margin-bottom: 2rem;
+    border: 2px solid #647bff;
 }
 
 .home-img {
@@ -310,6 +311,12 @@ header {
     column-gap: 8rem;
     opacity: 50%;
     font-size: 18px;
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+.ability-coding2:hover {
+    transform: scale(1.05);
 }
 
 /* SERVICES */
@@ -428,6 +435,12 @@ header {
     background: var(--box-color);
     border-radius: 0.4rem;
     text-align: center;
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+.project-box:hover {
+    transform: scale(1.05);
 }
 
 .project-box h2 {
