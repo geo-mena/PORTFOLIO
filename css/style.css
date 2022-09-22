@@ -451,6 +451,10 @@ header {
     font-size: 0.845rem;
 }
 
+i.bx.bx-link-alt {
+    background: var(--box-color);
+}
+
 /*REVIEWS*/
 .reviews {
     max-width: 750px;
